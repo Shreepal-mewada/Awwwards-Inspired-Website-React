@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Zentry Regular";
+  src: url(../public/fonts/zentry-regular.woff2) format("woff2");
+}
+#shree {
+  font-family: Zentry Regular;
+}
+#wertt {
+  font-family: Zentry Regular;
+}
+.mask-clip-path {
+  width: 30vw;
+  height: 40vh;
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
+  position: relative;
+  margin: 0 auto;
+}
+
+/* .about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+#two {
+  width: 30vw;
+  height: 40vh;
+
+  position: relative;
+  margin: 0px auto;
+}
+#feature-font {
+  font-family: Zentry Regular;
+}
+#grid {
+  /* width: 100%;
+  height: 100%; */
+  padding: 0px 35px;
+  height: 1050px;
+  overflow: hidden;
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+    "left-big right-one"
+    "left-big right-two"
+    "bottom-one bottom-two";
+}
+#one {
+  grid-area: left-big;
+  position: relative;
+}
+
+#three {
+  grid-area: right-one;
+  position: relative;
+}
+#four {
+  grid-area: right-two;
+  position: relative;
+}
+#five {
+  grid-area: bottom-one;
+  position: relative;
+}
+#six {
+  grid-area: bottom-two;
+  position: relative;
+}
+#five-grid {
+  font-family: Zentry Regular;
+}
+
+#forclip {
+  clip-path: polygon(5% 0, 100% 16%, 100% 86%, 0 100%);
+
+  border-radius: 100px 130px 130px 50px;
+}
+#section-one {
+  clip-path: polygon(16% 0, 95% 13%, 80% 100%, 0 93%);
+}
+#section-two {
+  clip-path: polygon(11% 0, 100% 0%, 76% 90%, 26% 100%);
+}
+#section-three {
+  clip-path: polygon(30% 21%, 99% 46%, 70% 100%, 0 100%);
+}
+
