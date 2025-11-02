@@ -34,11 +34,7 @@ function Nav() {
       }`}
     >
       <div className="flex justify-center items-center gap-9">
-        <img
-          className="w-10 rounded-full"
-          src="../public/img/logo.png"
-          alt=""
-        />
+        <img className="w-10 rounded-full" src="/img/logo.png" alt="" />
         <Button
           leftIcon={<BsCursorFill />}
           text={"Product"}

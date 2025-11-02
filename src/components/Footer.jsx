@@ -1,20 +1,3 @@
-// import React from "react";
-
-// function Footer() {
-//   return (
-//     <div className="w-full bg-[#5542ff] text-black font-semibold text-[14px]">
-//       <div className="flex justify-between px-7 items-center py-5">
-//         <p>©Nova 2024. All rights reserved</p>
-//         <p>nnk,jh</p>
-//         <p className=" ">Privacy Policy</p>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Footer;
-
-
 
 import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
 

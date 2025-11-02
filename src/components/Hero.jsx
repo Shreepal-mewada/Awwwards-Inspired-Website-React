@@ -52,7 +52,7 @@ function Hero() {
         <video
           ref={heroMain}
           className="w-full h-full object-cover"
-          src={`../public/videos/hero-${bigimg}.mp4`}
+          src={`/videos/hero-${bigimg}.mp4`}
           loop
           muted
           autoPlay
@@ -70,7 +70,7 @@ function Hero() {
             loop
             autoPlay
             muted
-            src={`\../public/videos/hero-${smallimg}.mp4`}
+            src={`/videos/hero-${smallimg}.mp4`}
           ></video>
         </div>
       </div>
@@ -96,7 +96,7 @@ function Hero() {
             "px-4 rounded-3xl py-2 mt-3 bg-yellow-300 flex items-center  gap-2 justify-center cursor-pointer"
           }
         />
-        {/* <button className="justify-self-start">click</button> */}
+      
       </div>
     </div>
   );

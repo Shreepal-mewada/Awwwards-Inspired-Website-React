@@ -15,7 +15,7 @@ function Features() {
       </div>
       <div className="border border-gray-600 text-white m-9 mt-4 h-[500px] relative">
         <video
-          src="../public/videos/feature-1.mp4"
+          src="/videos/feature-1.mp4"
           muted
           autoPlay
           loop
@@ -35,7 +35,7 @@ function Features() {
             muted
             autoPlay
             loop
-            src="../public/videos/feature-2.mp4"
+            src="/videos/feature-2.mp4"
             className=" w-full h-full object-cover object-center"
           />
           <FeatureContent
@@ -50,7 +50,7 @@ function Features() {
             muted
             autoPlay
             loop
-            src="../public/videos/feature-3.mp4"
+            src="/videos/feature-3.mp4"
             className=" w-full h-full object-cover object-cente border-gray-600 border"
           />
           <FeatureContent
@@ -65,7 +65,7 @@ function Features() {
             muted
             autoPlay
             loop
-            src="../public/videos/feature-4.mp4"
+            src="/videos/feature-4.mp4"
             className=" w-full h-full object-cover object-cente border-gray-600 border"
           />
           <FeatureContent
@@ -90,7 +90,7 @@ function Features() {
             muted
             autoPlay
             loop
-            src="../public/videos/feature-5.mp4"
+            src="/videos/feature-5.mp4"
             className=" w-full h-full object-cover object-cente border-gray-600 border"
           />
         </div>

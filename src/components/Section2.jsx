@@ -25,7 +25,7 @@ function Section2() {
           id="section-one"
         >
           <img
-            src="../public/img/swordman.webp"
+            src="/img/swordman.webp"
             className="object-center object-cover"
             alt=""
           />
@@ -35,7 +35,7 @@ function Section2() {
           id="section-two"
         >
           <img
-            src="../public/img/contact-1.webp"
+            src="/img/contact-1.webp"
             className=" w-full h-full object-center object-cover"
             alt=""
           />
@@ -45,7 +45,7 @@ function Section2() {
           id="section-three"
         >
           <img
-            src="../public/img/contact-2.webp"
+            src="/img/contact-2.webp"
             className=" w-full h-full bg-center bg-cover"
             alt=""
           />

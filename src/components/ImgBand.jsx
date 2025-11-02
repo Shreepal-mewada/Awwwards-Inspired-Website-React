@@ -10,12 +10,7 @@ function ImgBand() {
     gsap.from("#wertt", {
       opacity: 0,
       ease: "power1.inOut",
-      // scrollTrigger: {
-      //   trigger: '#wert',
-      //   // start: "top bottom ",
-      //   // end: "center center",
-      //   scrub: true,
-      // },
+      
     });
     gsap.to("#wertt", {
       duration: 2,
@@ -43,7 +38,7 @@ function ImgBand() {
       >
         <img
           className=" top-0 left-0 object-cover object-center h-full w-full overflow-hidden"
-          src="../public/img/entrance.webp"
+          src="/img/entrance.webp"
           alt=""
         />
       </div>
