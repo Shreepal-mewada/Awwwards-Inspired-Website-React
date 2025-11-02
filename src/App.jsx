@@ -13,7 +13,8 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Wait until all images, videos, etc. are loaded
+   
+
     const handleLoad = () => setLoading(false);
     window.addEventListener("load", handleLoad);
 
@@ -32,7 +33,7 @@ function App() {
   // );
 
   return (
-    <>
+    <div>
       {loading ? (
         <Loader />
       ) : (
@@ -46,7 +47,7 @@ function App() {
           <Footer />
         </div>
       )}
-    </>
+    </div>
   );
 }
 
