@@ -6,18 +6,47 @@ import Section2 from "./components/Section2";
 import Features from "./components/Features";
 import ImgBand from "./components/ImgBand";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";                                   
+import { useState, useEffect } from "react";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Wait until all images, videos, etc. are loaded
+    const handleLoad = () => setLoading(false);
+    window.addEventListener("load", handleLoad);
+
+    return () => window.removeEventListener("load", handleLoad);
+  }, []);
+  // return (
+  //   <div>
+  //     <Navbar />
+  //     <Hero />
+  //     <Section />
+  //     <Features />
+  //     <ImgBand />
+  //     <Section2 />
+  //     <Footer />
+  //   </div>
+  // );
+
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Section />
-      <Features />
-      <ImgBand />
-      <Section2 />
-      <Footer />
-    </div>
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <div>
+          <Navbar />
+          <Hero />
+          <Section />
+          <Features />
+          <ImgBand />
+          <Section2 />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 }
 

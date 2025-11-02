@@ -33,7 +33,7 @@ function Nav() {
         showNavbar ? "translate-y-0" : "-translate-y-20"
       }`}
     >
-      <div className="flex justify-center items-center gap-9">
+      <div className="flex justify-center items-center gap-4">
         <img className="w-10 rounded-full" src="/img/logo.png" alt="" />
         <Button
           leftIcon={<BsCursorFill />}
